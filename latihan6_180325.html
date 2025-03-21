@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+    <style>
+        .content{
+            display: grid;
+            grid-template-areas:
+                'header'
+                'main'
+                'footer';
+        }
+        .content2,.content1{
+            margin: 60px;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            border: 1px solid white;
+            margin: 5px;
+            transition: 0.3s;
+
+        }
+        img:hover{
+            width: 170px;
+            height: 170px;
+            border-radius: 5px;
+            border: 1px solid white;
+            margin: 5px;
+        }
+        .nama_b{
+            background: linear-gradient(to  right,blue, rgb(255, 255, 255), rgb(254, 254, 255));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-size: 70px; 
+            margin-top: -25px;
+        }
+        .nama_d{
+            background: linear-gradient(to  right,blue, rgb(255, 255, 255), rgb(254, 254, 255));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+        .sub{
+            font-family: "Courier New", Courier, monospace;
+            letter-spacing: 10px;
+            font-size:xx-large;
+        }
+    </style>
+<body>
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skill">SKILL</a>
+    </div>
+    <div class="content" >
+        <div class="content2">
+            <div class="item1" id="home">
+                <h1 class="nama_d">DIANDRA</h1>
+                <h1 class="nama_b">BAGUSTRI</h1>
+                <div class="sub">PROGRAMER</div>
+            <p style="margin: 20px 0px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro officiis mollitia sit in amet maiores minus, omnis nemo dolorem voluptatem culpa fuga suscipit praesentium accusantium quasi officia dolorum necessitatibus asperiores qui maxime corrupti voluptatibus magni doloribus saepe. Minus, libero sit quos tempore explicabo reprehenderit, obcaecati culpa officiis totam fuga aut.</p>
+            </div>
+        </div>
+       
+        <div class="item2" id="about">
+            <div class="content2" >
+                <h1 style="border-bottom: 2px solid #333;padding-bottom:15px; margin-bottom: 15px;">ABOUT ME</h1>
+                <p style="color: #333; text-align: justify;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis est vero impedit! Adipisci provident suscipit cupiditate mollitia nobis obcaecati voluptatum unde voluptates quas, magni nulla, minima fugiat nemo ex tempore inventore dolores ipsam iusto officia pariatur velit labore aliquam dignissimos quae. Recusandae, molestias incidunt! Corrupti eveniet architecto reiciendis accusantium fugit velit sed nihil consequatur modi asperiores quasi ducimus, consequuntur vel ullam iure quae porro. Rem laudantium delectus, id blanditiis repudiandae beatae eum aspernatur doloremque dolorum asperiores nemo nostrum, exercitationem facilis obcaecati hic cumque consequuntur odio. Repellendus, est! Deleniti tempora at eum quibusdam molestias, voluptate distinctio facilis ratione pariatur suscipit deserunt, labore vero accusamus eaque, recusandae cumque quasi nam sequi sunt! Molestias quas cupiditate minima ratione tenetur eos fuga earum explicabo, numquam illo provident nemo, aperiam odio mollitia quasi officiis at! Voluptas quaerat temporibus quam saepe obcaecati, quas distinctio facilis, doloribus dolore odio numquam labore excepturi, fugiat asperiores minus. Nisi, officiis!
+                </p>
+            </div>
+        </div>
+        <div class="item3" id="skill">
+           <h1>SKILLS</h1>
+            <div class="photo">
+                <div class="container">
+                    <img class="item" src="img/css.png" alt="">
+                    <img class="item" src="img/html.png" alt="">
+                    <img class="item" src="img/js.png" alt="">
+                    <img class="item" src="img/cpp.jpg" alt="">
+                    <img class="item" src="img/c.png" alt="">
+                    <img class="item" src="img/java.jpeg" alt="">
+                    <img class="item" src="img/css.png" alt="">
+                    <img class="item" src="img/html.png" alt="">
+                    <img class="item" src="img/js.png" alt="">
+                </div>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
